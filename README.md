@@ -76,7 +76,7 @@
 ### 需要手动配置的内容
 `Prefab(Manager\NoticeManager)`
 
-![需要配置的内容](https://www.bluesdawn.top/img/20200725195048.jpg?v=2 "需要配置的内容")
+![需要配置的内容](https://www.bluesdawn.top/img/20200725195048.jpg "需要配置的内容")
 
 ①、③分别为获取`date.json`和`notice.json`的链接
 
