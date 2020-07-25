@@ -1,4 +1,8 @@
 # Unity联网公告栏 (Unity-Notifications)
+
+![license](https://img.shields.io/github/license/BluesDawn576/Unity-Notifications)
+![release](https://img.shields.io/github/v/release/BluesDawn576/Unity-Notifications)
+
 **一个可以快速配置的开源公告插件**
 
 使用前需要熟悉Json结构
