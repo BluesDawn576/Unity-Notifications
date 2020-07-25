@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1026276704320000}
+  m_IsPrefabParent: 1
+--- !u!1 &1026276704320000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4117057182763164}
+  - component: {fileID: 114138959062022982}
+  - component: {fileID: 114406496328124756}
+  - component: {fileID: 114996780657023702}
+  - component: {fileID: 114488215301341080}
+  m_Layer: 0
+  m_Name: NoticeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4117057182763164
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1026276704320000}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114138959062022982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1026276704320000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ce5566ace8531042be55f6001cd39f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Notice: {fileID: 114406496328124756}
+  url: https://bluesdawn576.github.io/test/date.json
+--- !u!114 &114406496328124756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1026276704320000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58dec6b8d13cabb429f838b170cbf49a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NoticeRead: {fileID: 114996780657023702}
+  notifications: {fileID: 0}
+  button: {fileID: 0}
+  url: https://bluesdawn576.github.io/test/notice.json
+--- !u!114 &114488215301341080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1026276704320000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ed226bddf31c74e8c59153e7acbf89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Notifications: {fileID: 0}
+  notifications: {fileID: 0}
+  NoticeRead: {fileID: 114996780657023702}
+--- !u!114 &114996780657023702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1026276704320000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1a8b806959efe4aa97cf1500ade239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Notice: {fileID: 114406496328124756}
+  Prefab: {fileID: 1204344007443194, guid: b66b9f0380822ac4c8be8d6a274547a6, type: 2}
+  content: {fileID: 0}
