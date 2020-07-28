@@ -111,12 +111,4 @@
 
 ## 写在最后
 
-本项目由个人自行开发，如果有问题请提交issue
-
-> QQ：1355502473
-
-> 邮箱：[bluesdawn@foxmail.com](mailto:bluesdawn@foxmail.com)
-
 许可证：[MIT License](https://github.com/BluesDawn576/Unity-Notifications/blob/master/LICENSE)
-
-如果本项目对你有帮助的话，可以给个`Star`支持一下~
